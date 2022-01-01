@@ -11,8 +11,8 @@ LEGENDversion = "𝚅2.1"
 botversion = "𝚅2.1"
 
 os.system("pip install --upgrade pip")
-if Var.LEGEND_STRING:
-    session_name = str(Var.LEGEND_STRING)
+if Var.PYTHON_STRING:
+    session_name = str(Var.PYTHON_STRING)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
     session_name = "startup"
@@ -153,7 +153,7 @@ except:
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/LEGEND-OS/LEGENDUSERBOT.git")
+    "https://github.com/LEGEND-LX/PYTHONUSERBOT-V9.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
