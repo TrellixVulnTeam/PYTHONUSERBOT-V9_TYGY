@@ -29,7 +29,7 @@ async def add_bot(bot_token):
         bot.me = await bot.get_me()
         bot.uid = telethon.utils.get_peer_id(bot.me)
     except Exception as e:
-        print(f"LEGEND_STRING - {str(e)}")
+        print(f"PYTHON_STRING - {str(e)}")
         sys.exit()
         
         
@@ -102,10 +102,10 @@ bot.loop.run_until_complete(module())
 bot.loop.run_until_complete(addons())
 bot.loop.run_until_complete(assistant())
 
-print(f"""『🔱🇱 🇪 🇬 🇪 🇳 🇩 B O T 🔱』➙𖤍࿐ IS ON!!! LEGEND VERSION :- {LEGENDversion}
-TYPE :- " .gpromote @Its_LegendBoy " OR .legend OR .ping CHECK IF I'M ON!
-╔════❰LEGENDBOT❱═❍⊱❁۪۪
-║┣⪼ OWNER - LEGEND
+print(f"""『🔱PYTHON(BOT)🔱』➙𖤍࿐ IS ON!!! PYTHON VERSION :- {LEGENDversion}
+TYPE :- " .gpromote @LegendHacker_IN " OR .legend OR .ping CHECK IF I'M ON!
+╔════❰PYTHONBOT❱═❍⊱❁۪۪
+║┣⪼ OWNER - LEGEND-LX
 ║┣⪼{LEGEND_PIC}
 ║┣⪼ CREATOR -@Its_LegendBoy
 ║┣⪼ TELETHON - 1.2.0
