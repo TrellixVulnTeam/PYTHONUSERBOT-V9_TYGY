@@ -14,7 +14,7 @@ if okvai == "69":
     with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
         print(client.session.save())
         client.send_message("me", client.session.save())
-        client.send_message("me", "Above is your #LEGENDBOT STRING SESSION \nPaste this string in Heroku Var.\n\n[Team LegendBot](t.me/Official_LegendBot)")
+        client.send_message("me", "Above is your #PYTHONBOT STRING SESSION \nPaste this string in Heroku Var.\n\n[Team PythonBot](t.me/Python_Userbot_Support)")
 
 else:
     print("Bhag jaa bhosdike warna")
